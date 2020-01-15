@@ -1,4 +1,4 @@
-# ferg.ie
+# C-Fergus.github.io
 My website
 
 This is the code which I will use to learn to create a website.
