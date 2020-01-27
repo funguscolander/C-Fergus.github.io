@@ -1,0 +1,14 @@
+/* mainStyle */
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size:15px;
+  background-color: white;
+  margin: 0;
+}
+article {
+  margin: 1em;
+  background-color: whitesmoke;
+}
+footer {
+  margin: 1em;
+}

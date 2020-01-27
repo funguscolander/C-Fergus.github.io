@@ -15,7 +15,13 @@
     testbed for learning HTML, CSS, and JavaScript for my continuous personal
     development (CPD)." />
 
-  <link rel="stylesheet" type="text/css" href="/C-Fergus.github.io/css/mainStyle.css" />
+  <link rel="stylesheet" type="text/css" href="css/w3.css" />
+
+  <!-- Compatibility with Internet Explorer versions earlier than IE9: -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    </script>
+  <![endif]-->
 </head>
 <!--
   TODO Make the homepage more like a CV and have subpages for learning.
@@ -24,36 +30,46 @@
   <header id="hdr:Welcome">
     <h1>Collins' Castle</h1>
   </header>
+  <section>
+    <figure id="fig:HarryAndFergus">
+      <img
+        src="img/harry-and-fergus.jpg"
+        style="max-width:100%;height:auto;"
+        alt="My brother and me having a few in the pub at Christmas."
+        title="My brother and me having a few in the pub at Christmas. That's me on the left, Fergus."
+        id="fig:HarryAndFergus" />
+      <!-- <figcaption>My brother (right) and me (left) having a few in the pub at
+        Christmas.</figcaption> -->
+      <!-- TODO Style with CSS as opposed to HTML -->
+    </figure>
+  </section>
+  <section class="w3-main">
+    <article>
+      <h1>Welcome to Collins' Castle</h1>
+      <p>
+        This website is where I will be learning
+        <em><abbr title="Hypertext Markup Language">HTML</abbr></em>,
+        <em><abbr title="Cascading Style Sheets">CSS</abbr></em>,
+        and <em>JavaScript</em>; along with linking to some of my <a>academic
+        documents</a>.<br />
 
-  <figure id="fig:HarryAndFergus">
-    <img
-      src="img/harry-and-fergus.jpg"
-      style="max-width:100%;height:auto;"
-      alt="My brother and me having a few in the pub at Christmas."
-      title="My brother and me having a few in the pub at Christmas. That's me on
-        the left, Fergus."
-      id="fig:HarryAndFergus" />
-    <!-- <figcaption>My brother (right) and me (left) having a few in the pub at
-      Christmas.</figcaption> -->
-    <!-- TODO Style with CSS as opposed to HTML -->
-  </figure>
-  <article>
-    <h1>Welcome to Collins' Castle</h1>
-    <p>
-      This website is where I will be learning
-      <em><abbr title="Hypertext Markup Language">HTML</abbr></em>,
-      <em><abbr title="Cascading Style Sheets">CSS</abbr></em>,
-      and <em>JavaScript</em>; along with linking to some of my <a>academic
-      documents</a>.<br />
-
-      You can view my test page <a href="learninghtml/">here</a>.
-    </p>
-  </article>
+        You can view my test page
+        <a href="learninghtml/" target="_self" title="Test page">here</a>.
+      </p>
+    </article>
+  </section>
+  <aside>
+    <p>Aside test</p>
+  </aside>
   <hr>
-
-  <address>
-    Written by Fergus Collins.<br />
-    Please contact me at my Github page for further inquiries.
-  </address>
+  <!-- Footer: -->
+  <section>
+    <footer id="ftr:Welcome">
+      <address>
+        Written by Fergus Collins.<br />
+        Please contact me at my Github page for further inquiries.
+      </address>
+    </footer>
+  </section>
 </body>
 </html>
