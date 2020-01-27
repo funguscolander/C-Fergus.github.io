@@ -1,0 +1,8 @@
+TODO Make hamburger for each section
+
+TODO Add darkmode switch to each page (top-right corner?)
+BODY This could be as 
+
+TODO Make darkmode version of homepage (effect should apply to all sections)
+
+TODO Make darkmode for hamburger
